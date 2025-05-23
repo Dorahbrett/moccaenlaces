@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mocca Celebraciones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Howell&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --rosa-claro: #f9e4e4;
+      --rosado: #c9506a;
+      --vino: #bf0123;
+      --vino-oscuro: #380000;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: var(--rosa-claro) url('img/patrones 1.png') repeat;
+      background-size: contain;
+      color: var(--vino-oscuro);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+    .contenedor-principal {
+      background-color: var(--rosa-claro);
+      border-radius: 16px;
+      padding: 2rem;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo {
+      width: 100px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-family: 'Howell', serif;
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .botones {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .boton-enlace {
+      background-color: var(--rosado);
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      border-radius: 12px;
+      text-align: center;
+      font-weight: 600;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background 0.3s;
+    }
+
+    .boton-enlace:hover {
+      background-color: var(--vino);
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: var(--vino);
+    }
+  </style>
+</head>
+<body>
+    <div class="contenedor-principal">
+      <img src="img/reducido.png" alt="Mocca Celebraciones" class="logo" />
+      <h1>Mocca Celebraciones</h1>
+      <div class="botones">
+        <a class="boton-enlace" href="https://wa.me/message/SFCZ32G2HOM3K1" target="_blank">Enviar mensaje por WhatsApp</a>
+        <a class="boton-enlace" href="https://moccabakes.com/tortas-tradicionales" target="_blank">Ver catálogo de productos tradicionales</a>
+        <a class="boton-enlace" href="https://moccabakes.com/info-celebraciones" target="_blank">Celebraciones a medida</a>
+      </div>
+      <footer>
+        © Mocca Celebraciones 2025
+      </footer>
+    </div>
+  </body>
+</html>
